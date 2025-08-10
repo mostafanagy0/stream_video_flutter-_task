@@ -104,28 +104,6 @@ To enable real video calls:
 // Methods: joinCall(), leaveCall(), updateParticipantCount()
 ```
 
-### PermissionService
-```dart
-// Methods: requestPermissions(), arePermissionsGranted(), openSettings()
-```
-
-## 🧪 Testing
-
-### Unit Tests
-```bash
-flutter test
-```
-
-### Widget Tests
-```bash
-flutter test test/widget_test.dart
-```
-
-## 📱 Platform Support
-
-- ✅ Android (with permissions)
-- ✅ iOS (with permissions)
-- ⚠️ Web (limited functionality)
 
 ## 🔧 Dependencies
 
@@ -133,49 +111,3 @@ flutter test test/widget_test.dart
 - `equatable: ^2.0.7` - Value equality
 - `permission_handler: ^12.0.1` - Runtime permissions
 - `stream_video_flutter: ^0.10.2` - Video SDK
-
-## 🚀 Next Steps
-
-1. **Add Real Video Integration**:
-   - Implement StreamVideo SDK in VideoCallCubit
-   - Add participant management
-   - Add video/audio controls
-
-2. **Enhance UI**:
-   - Add participant video tiles
-   - Add call controls (mute, camera toggle)
-   - Add screen sharing
-
-3. **Add Features**:
-   - User authentication
-   - Multiple rooms
-   - Chat during calls
-   - Recording functionality
-
-## 🐛 Troubleshooting
-
-### Common Issues
-- **Permissions denied**: Check device settings
-- **Build errors**: Run `flutter clean && flutter pub get`
-- **State issues**: Check Cubit implementations
-
-### Debug Mode
-Enable debug prints in Cubits for detailed state tracking.
-
-## 📄 License
-
-This project is for educational and development purposes.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests
-5. Submit a pull request
-
-## 📞 Support
-
-- [StreamVideo Documentation](https://getstream.io/video/docs/)
-- [Flutter Documentation](https://flutter.dev/docs)
-- [BLoC Documentation](https://bloclibrary.dev/)
